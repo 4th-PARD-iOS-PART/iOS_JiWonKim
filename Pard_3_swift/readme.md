@@ -1,4 +1,4 @@
 # Assignment3 - Netflix Clone Coding 🎬
 ### This is Assignment Screen
 
-<img src="https://github.com/user-attachments/assets/dfc3f588-0c6b-4abc-be78-8f718e65d7fc" width="400"/>
+<img src="https://github.com/user-attachments/assets/77d81471-d0d2-452e-baec-55245ba77e19" width="400"/>
