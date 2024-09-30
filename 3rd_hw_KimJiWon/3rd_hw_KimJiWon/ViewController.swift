@@ -11,10 +11,10 @@ class ViewController: UITabBarController {
     // TabBar
     func setTabBar() {
         let vc1 = UINavigationController(rootViewController: HomeViewController())
-        let vc2 = UINavigationController()
-        let vc3 = UINavigationController()
-        let vc4 = UINavigationController()
-        let vc5 = UINavigationController()
+        let vc2 = UINavigationController(rootViewController: SearchViewController())
+        let vc3 = UINavigationController(rootViewController: ComingSoonViewController())
+        let vc4 = UINavigationController(rootViewController: DownloadsViewController())
+        let vc5 = UINavigationController(rootViewController: MoreViewController())
         
         self.viewControllers = [vc1, vc2, vc3, vc4, vc5]
         self.tabBar.tintColor = #colorLiteral(red: 0.9999999404, green: 1, blue: 1, alpha: 1) // TabBar 선택 시 글자 색상
