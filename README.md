@@ -1,4 +1,4 @@
 # Welcome to Jiwon's Repository 🌱
-### This Page is My Repository 😎
+### This is Repository Home Page
+<img src="https://github.com/user-attachments/assets/9f81895a-d17c-467b-93d6-745d3002a3ff" width="400"/>
 
-<img src="https://github.com/user-attachments/assets/627da07c-0160-43f1-8030-995bc957720d" width="400"/>

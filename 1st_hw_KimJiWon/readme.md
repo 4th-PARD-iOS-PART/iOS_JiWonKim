@@ -1,4 +1,4 @@
 # Assignment1 - Create a Calculator 🧮
 ### This is Assignment Screen
 
-<img src="https://github.com/user-attachments/assets/dfc3f588-0c6b-4abc-be78-8f718e65d7fc" width="400"/>
+<img src="https://github.com/user-attachments/assets/11a80268-4ad3-4765-949a-1d5638e4f608" width="400"/>
