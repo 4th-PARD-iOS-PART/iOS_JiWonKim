@@ -1,9 +1,8 @@
 import UIKit
 
-class SearchCustomCell: UITableViewCell {
+class ComingSoonCustomCell: UITableViewCell {
     
     let image = UIImageView()
-    let label = UILabel()
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -11,8 +10,8 @@ class SearchCustomCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: "Cell")
-        contentView.addSubview(label)
         contentView.addSubview(image)
+
     }
 ////     Cell 간 여백
 //    override func layoutSubviews() {
@@ -22,15 +21,13 @@ class SearchCustomCell: UITableViewCell {
 //    }
     
     func setLabel(){
-        label.translatesAutoresizingMaskIntoConstraints = false
         image.translatesAutoresizingMaskIntoConstraints = false
+
         
         NSLayoutConstraint.activate([
-            label.topAnchor.constraint(equalTo: contentView.topAnchor),
-            label.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            
             image.topAnchor.constraint(equalTo: contentView.topAnchor),
-            image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor)
+            image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            image.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
         ])
     }
 }

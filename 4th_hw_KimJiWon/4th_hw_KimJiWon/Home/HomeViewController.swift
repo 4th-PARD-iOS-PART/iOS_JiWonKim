@@ -24,6 +24,7 @@ class HomeViewController: UIViewController {
         navigationController?.setNavigationBarHidden(true, animated: false)
         tableViewUI.dataSource = self
         tableViewUI.delegate = self
+        tableViewUI.register(TableCustomCell.self, forCellReuseIdentifier: "Cell")
         setUI()
         if #available(iOS 15.0, *) { // section간 간격 없애기
             tableViewUI.sectionHeaderTopPadding = 0
@@ -291,7 +292,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = UIView()
-        headerView.backgroundColor = .clear
+        headerView.backgroundColor = .black
         
         let headerTitle = UILabel()
         headerTitle.translatesAutoresizingMaskIntoConstraints = false

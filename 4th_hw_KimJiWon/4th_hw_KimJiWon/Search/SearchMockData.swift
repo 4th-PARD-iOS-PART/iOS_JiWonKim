@@ -8,12 +8,13 @@ struct SearchMockData{
 extension SearchMockData{
     static var modeling = [
         [
-            SearchMockData(title: "", name: "1"),
-            SearchMockData(title: "", name: "2"),
-            SearchMockData(title: "", name: "3"),
-            SearchMockData(title: "", name: "4"),
-            SearchMockData(title: "", name: "5"),
-            SearchMockData(title: "", name: "6"),
+            SearchMockData(title: "Citation", name: "s1"),
+            SearchMockData(title: "Oloture", name: "s2"),
+            SearchMockData(title: "The Setup", name: "s3"),
+            SearchMockData(title: "Breaking Bad", name: "s4"),
+            SearchMockData(title: "Ozark", name: "s5"),
+            SearchMockData(title: "The Governor", name: "s6"),
+            SearchMockData(title: "Your Excellency", name: "s7"),
         ]
     ]
 }

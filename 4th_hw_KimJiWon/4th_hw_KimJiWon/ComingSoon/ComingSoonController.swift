@@ -1,12 +1,13 @@
 import UIKit
 
-class SearchViewController: UIViewController {
+class ComingSoonViewController: UIViewController {
     
     var tableViewUI: UITableView!
     var searchBar: UISearchBar!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.setNavigationBarHidden(true, animated: false)
         setUI()
         tableViewUI.dataSource = self
         tableViewUI.delegate = self
@@ -27,16 +28,6 @@ class SearchViewController: UIViewController {
     
     func setUI() {
         view.backgroundColor = .black
-        searchBar = {
-            let searchbar = UISearchBar()
-            searchbar.translatesAutoresizingMaskIntoConstraints = false
-            searchbar.placeholder = "Search for a show, movie, genre, e.t.c."
-            searchbar.tintColor = #colorLiteral(red: 0.768627451, green: 0.768627451, blue: 0.768627451, alpha: 1)
-            searchbar.backgroundColor = .black
-            UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).defaultTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-            return searchbar
-        }()
-        navigationItem.titleView = searchBar
         
         tableViewUI = {
             let tableView = UITableView(frame: .zero, style: .grouped)
@@ -44,10 +35,9 @@ class SearchViewController: UIViewController {
             tableView.translatesAutoresizingMaskIntoConstraints = false
             return tableView
         }()
-        view.addSubview(searchBar)
         view.addSubview(tableViewUI)
         
-        tableViewUI.register(SearchCustomCell.self, forCellReuseIdentifier: "Cell")
+        tableViewUI.register(ComingSoonCustomCell.self, forCellReuseIdentifier: "Cell")
         
         NSLayoutConstraint.activate([
             tableViewUI.topAnchor.constraint(equalTo: view.topAnchor),
@@ -62,36 +52,36 @@ class SearchViewController: UIViewController {
     }
 }
 
-extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
+extension ComingSoonViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let count = SearchMockData.modeling[section].count
+        let count = ComingSoonMockData.modeling[section].count
 //        print("numberOfRowsInSection called. Returning \(count) for section \(section)")
         return count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableViewUI.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? SearchCustomCell else {
+        guard let cell = tableViewUI.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ComingSoonCustomCell else {
             print("Failed to dequeue SearchCustomCell")
             return UITableViewCell()
         }
         
         switch indexPath.section {
         case 0:
-            cell.backgroundColor = #colorLiteral(red: 0.2588235294, green: 0.2588235294, blue: 0.2588235294, alpha: 1)
+            cell.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
         default:
-            cell.backgroundColor = #colorLiteral(red: 0.2588235294, green: 0.2588235294, blue: 0.2588235294, alpha: 1)
+            cell.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         }
         
-        cell.textLabel?.text = SearchMockData.modeling[indexPath.section][indexPath.row].title
+        cell.textLabel?.text = ComingSoonMockData.modeling[indexPath.section][indexPath.row].title
         cell.textLabel?.textColor = .white
         cell.textLabel?.font = UIFont.systemFont(ofSize: 14.72)
         cell.selectionStyle = .none
-        let imageName = SearchMockData.modeling[indexPath.section][indexPath.row].name
+        let imageName = ComingSoonMockData.modeling[indexPath.section][indexPath.row].name
             if let image = UIImage(named: imageName) {
                 // 이미지 크기 조절
-                let size = CGSize(width: 146, height: 76) // 원하는 크기로 설정
+                let size = CGSize(width: 375, height: 195) // 원하는 크기로 설정
                 UIGraphicsBeginImageContextWithOptions(size, false, 0.0)
-                image.draw(in: CGRect(origin: .zero, size: size))
+                image.draw(in: CGRect(x: 0, y: 0, width: 375, height: 195))
                 let resizedImage = UIGraphicsGetImageFromCurrentImageContext()
                 UIGraphicsEndImageContext()
                 
@@ -100,8 +90,6 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
             }
             
             // 이미지 뷰 크기 조정
-//            cell.imageView?.frame = CGRect(x: 10, y: 10, width: 100, height: 50) // 원하는 크기로 설정
-            cell.imageView?.contentMode = .scaleAspectFit
 
         return cell
     }
@@ -112,47 +100,53 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
-        case 0: return "Top Searches"
+        case 0: return "Notifications"
         default: return nil
         }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 76.0
+        return 385.0
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 54.0
+        return 58.0
     }
 
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = UIView()
-        
         headerView.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        
+        let headerImage = UIImageView()
+            headerImage.translatesAutoresizingMaskIntoConstraints = false
+            headerImage.image = UIImage(named: "bell") // 원하는 이미지로 변경
+            headerImage.contentMode = .scaleAspectFit
 
         let headerTitle = UILabel()
         headerTitle.translatesAutoresizingMaskIntoConstraints = false
-        headerTitle.text = "Top Searches"
-        headerTitle.font = UIFont.systemFont(ofSize: 26.75, weight: .bold)
+        headerTitle.text = "Notifications"
+        headerTitle.font = UIFont.systemFont(ofSize: 16.91, weight: .bold)
         headerTitle.textColor = .white
 
+        headerView.addSubview(headerImage)
         headerView.addSubview(headerTitle)
 
         NSLayoutConstraint.activate([
-            headerTitle.widthAnchor.constraint(equalToConstant: 164),
-            headerTitle.topAnchor.constraint(equalTo: headerView.topAnchor, constant: 0),
-            headerTitle.leadingAnchor.constraint(equalTo: headerView.leadingAnchor, constant: 8),
-            headerTitle.trailingAnchor.constraint(equalTo: headerView.trailingAnchor, constant: -8),
-            headerTitle.bottomAnchor.constraint(equalTo: headerView.bottomAnchor, constant: 0)
+            headerImage.widthAnchor.constraint(equalToConstant: 19),
+            headerImage.leadingAnchor.constraint(equalTo: headerView.leadingAnchor, constant: 15),
+            headerImage.centerYAnchor.constraint(equalTo: headerView.centerYAnchor),
+            headerImage.widthAnchor.constraint(equalToConstant: 40),  // 이미지 너비 설정
+            headerImage.heightAnchor.constraint(equalToConstant: 40), // 이미지 높이 설정
+                    
+            headerTitle.leadingAnchor.constraint(equalTo: headerImage.trailingAnchor, constant: 7),
+            headerTitle.centerYAnchor.constraint(equalTo: headerView.centerYAnchor)
         ])
 
         return headerView
     }
 }
 
-// 위로 스크롤 할 때 navigationBar 검정색 유지
-// searchBar 음성녹음 이미지(또는 버튼) 추가
-// searchBar 색상 변경
 // cell 이미지 및 title 위치 조절
-// cell 간 간격 늘리기 + play 이미지(또는 버튼) 추가
+// cell 간 간격 늘리기
 // cell 테두리 설정
+//
