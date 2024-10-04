@@ -31,10 +31,24 @@ class SearchViewController: UIViewController {
             let searchbar = UISearchBar()
             searchbar.translatesAutoresizingMaskIntoConstraints = false
             searchbar.placeholder = "Search for a show, movie, genre, e.t.c."
-            searchbar.tintColor = #colorLiteral(red: 0.768627451, green: 0.768627451, blue: 0.768627451, alpha: 1)
-            searchbar.barTintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-            searchbar.backgroundColor = #colorLiteral(red: 0.3278294206, green: 0.3278294206, blue: 0.3278294206, alpha: 1)
-            UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).defaultTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            searchbar.searchBarStyle = .minimal
+            searchbar.searchTextField.backgroundColor = #colorLiteral(red: 0.3278294206, green: 0.3278294206, blue: 0.3278294206, alpha: 1)
+            searchbar.searchTextField.textColor = .white
+            searchbar.searchTextField.leftView?.tintColor = #colorLiteral(red: 0.8110429645, green: 0.8110429049, blue: 0.8110429049, alpha: 1)
+            searchbar.searchTextField.attributedPlaceholder = NSAttributedString(
+                string: "Search for a show, movie, genre, e.t.c.",
+                attributes: [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.8110429645, green: 0.8110429049, blue: 0.8110429049, alpha: 1) ])
+            
+            searchbar.searchTextField.layer.cornerRadius = 5
+            searchbar.searchTextField.clipsToBounds = true
+            searchbar.layer.borderWidth = 0
+            searchbar.layer.borderColor = .none
+            searchbar.setImage(UIImage(named: "mic"), for: .clear, state: .normal) // 보이스 버튼 설정
+            
+            if let micImage = UIImage(named: "mic")?.resized(to: CGSize(width: 12.95, height: 17.58)) {  // 원하는 크기로 조정
+                searchbar.setImage(micImage, for: .clear, state: .normal)
+            }
+            
             return searchbar
         }()
         
@@ -129,7 +143,14 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-// searchBar 음성녹음 이미지(또는 버튼) 추가
-// searchBar 색상 변경
+extension UIImage {
+    func resized(to size: CGSize) -> UIImage? {
+        let renderer = UIGraphicsImageRenderer(size: size)
+        return renderer.image { _ in
+            self.draw(in: CGRect(origin: .zero, size: size))
+        }
+    }
+}
+
 
 
