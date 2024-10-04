@@ -43,9 +43,9 @@ class SearchViewController: UIViewController {
             searchbar.searchTextField.clipsToBounds = true
             searchbar.layer.borderWidth = 0
             searchbar.layer.borderColor = .none
-            searchbar.setImage(UIImage(named: "mic"), for: .clear, state: .normal) // 보이스 버튼 설정
+            searchbar.setImage(UIImage(named: "voice"), for: .clear, state: .normal) // voice 버튼 설정
             
-            if let micImage = UIImage(named: "mic")?.resized(to: CGSize(width: 12.95, height: 17.58)) {  // 원하는 크기로 조정
+            if let micImage = UIImage(named: "voice")?.resized(to: CGSize(width: 12.95, height: 17.58)) {  // voice 크기 조절
                 searchbar.setImage(micImage, for: .clear, state: .normal)
             }
             

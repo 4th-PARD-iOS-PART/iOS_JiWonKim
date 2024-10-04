@@ -72,6 +72,9 @@ class ComingSoonCustomCell: UITableViewCell {
             //poster
             image.topAnchor.constraint(equalTo: containerView.topAnchor),
             image.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+            image.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+            image.heightAnchor.constraint(equalToConstant: 210),
+            
             // remind me
             image2.widthAnchor.constraint(equalToConstant: 24),
             image2.topAnchor.constraint(equalTo: image.bottomAnchor, constant: 20),
