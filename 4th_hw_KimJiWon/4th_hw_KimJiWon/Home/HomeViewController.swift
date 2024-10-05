@@ -55,7 +55,7 @@ class HomeViewController: UIViewController {
         let backgroundImage: UIImageView = {
             let mainImage = UIImageView()
             mainImage.translatesAutoresizingMaskIntoConstraints = false
-            mainImage.image = UIImage(named: "harry") // mainImage 설정
+            mainImage.image = UIImage(named: "love") // mainImage 설정
             mainImage.contentMode = .scaleAspectFill // 이미지 비율 유지
             return mainImage
             }()

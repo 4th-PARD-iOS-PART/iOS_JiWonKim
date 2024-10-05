@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F416E3102CB1044E00B97C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F416E2F12CB1044A00B97C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F416E2F82CB1044A00B97C7C;
+			remoteInfo = "Screen Movement";
+		};
+		F416E31A2CB1044E00B97C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F416E2F12CB1044A00B97C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F416E2F82CB1044A00B97C7C;
+			remoteInfo = "Screen Movement";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F416E2F92CB1044A00B97C7C /* Screen Movement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Movement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F416E30F2CB1044E00B97C7C /* Screen MovementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Screen MovementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F416E3192CB1044E00B97C7C /* Screen MovementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Screen MovementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F416E3212CB1044E00B97C7C /* Exceptions for "Screen Movement" folder in "Screen Movement" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F416E2F82CB1044A00B97C7C /* Screen Movement */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F416E2FB2CB1044A00B97C7C /* Screen Movement */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F416E3212CB1044E00B97C7C /* Exceptions for "Screen Movement" folder in "Screen Movement" target */,
+			);
+			path = "Screen Movement";
+			sourceTree = "<group>";
+		};
+		F416E3122CB1044E00B97C7C /* Screen MovementTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Screen MovementTests";
+			sourceTree = "<group>";
+		};
+		F416E31C2CB1044E00B97C7C /* Screen MovementUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Screen MovementUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F416E2F62CB1044A00B97C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F416E30C2CB1044E00B97C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F416E3162CB1044E00B97C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F416E2F02CB1044A00B97C7C = {
+			isa = PBXGroup;
+			children = (
+				F416E2FB2CB1044A00B97C7C /* Screen Movement */,
+				F416E3122CB1044E00B97C7C /* Screen MovementTests */,
+				F416E31C2CB1044E00B97C7C /* Screen MovementUITests */,
+				F416E2FA2CB1044A00B97C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F416E2FA2CB1044A00B97C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F416E2F92CB1044A00B97C7C /* Screen Movement.app */,
+				F416E30F2CB1044E00B97C7C /* Screen MovementTests.xctest */,
+				F416E3192CB1044E00B97C7C /* Screen MovementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F416E2F82CB1044A00B97C7C /* Screen Movement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F416E3222CB1044E00B97C7C /* Build configuration list for PBXNativeTarget "Screen Movement" */;
+			buildPhases = (
+				F416E2F52CB1044A00B97C7C /* Sources */,
+				F416E2F62CB1044A00B97C7C /* Frameworks */,
+				F416E2F72CB1044A00B97C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F416E2FB2CB1044A00B97C7C /* Screen Movement */,
+			);
+			name = "Screen Movement";
+			packageProductDependencies = (
+			);
+			productName = "Screen Movement";
+			productReference = F416E2F92CB1044A00B97C7C /* Screen Movement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F416E30E2CB1044E00B97C7C /* Screen MovementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F416E3272CB1044E00B97C7C /* Build configuration list for PBXNativeTarget "Screen MovementTests" */;
+			buildPhases = (
+				F416E30B2CB1044E00B97C7C /* Sources */,
+				F416E30C2CB1044E00B97C7C /* Frameworks */,
+				F416E30D2CB1044E00B97C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F416E3112CB1044E00B97C7C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F416E3122CB1044E00B97C7C /* Screen MovementTests */,
+			);
+			name = "Screen MovementTests";
+			packageProductDependencies = (
+			);
+			productName = "Screen MovementTests";
+			productReference = F416E30F2CB1044E00B97C7C /* Screen MovementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F416E3182CB1044E00B97C7C /* Screen MovementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F416E32A2CB1044E00B97C7C /* Build configuration list for PBXNativeTarget "Screen MovementUITests" */;
+			buildPhases = (
+				F416E3152CB1044E00B97C7C /* Sources */,
+				F416E3162CB1044E00B97C7C /* Frameworks */,
+				F416E3172CB1044E00B97C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F416E31B2CB1044E00B97C7C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F416E31C2CB1044E00B97C7C /* Screen MovementUITests */,
+			);
+			name = "Screen MovementUITests";
+			packageProductDependencies = (
+			);
+			productName = "Screen MovementUITests";
+			productReference = F416E3192CB1044E00B97C7C /* Screen MovementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F416E2F12CB1044A00B97C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F416E2F82CB1044A00B97C7C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F416E30E2CB1044E00B97C7C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F416E2F82CB1044A00B97C7C;
+					};
+					F416E3182CB1044E00B97C7C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F416E2F82CB1044A00B97C7C;
+					};
+				};
+			};
+			buildConfigurationList = F416E2F42CB1044A00B97C7C /* Build configuration list for PBXProject "Screen Movement" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F416E2F02CB1044A00B97C7C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F416E2FA2CB1044A00B97C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F416E2F82CB1044A00B97C7C /* Screen Movement */,
+				F416E30E2CB1044E00B97C7C /* Screen MovementTests */,
+				F416E3182CB1044E00B97C7C /* Screen MovementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F416E2F72CB1044A00B97C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F416E30D2CB1044E00B97C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F416E3172CB1044E00B97C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F416E2F52CB1044A00B97C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F416E30B2CB1044E00B97C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F416E3152CB1044E00B97C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F416E3112CB1044E00B97C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F416E2F82CB1044A00B97C7C /* Screen Movement */;
+			targetProxy = F416E3102CB1044E00B97C7C /* PBXContainerItemProxy */;
+		};
+		F416E31B2CB1044E00B97C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F416E2F82CB1044A00B97C7C /* Screen Movement */;
+			targetProxy = F416E31A2CB1044E00B97C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F416E3232CB1044E00B97C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Screen Movement/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwonstudy.Screen-Movement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F416E3242CB1044E00B97C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Screen Movement/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwonstudy.Screen-Movement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F416E3252CB1044E00B97C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F416E3262CB1044E00B97C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F416E3282CB1044E00B97C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwonstudy.Screen-MovementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Screen Movement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Screen Movement";
+			};
+			name = Debug;
+		};
+		F416E3292CB1044E00B97C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwonstudy.Screen-MovementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Screen Movement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Screen Movement";
+			};
+			name = Release;
+		};
+		F416E32B2CB1044E00B97C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwonstudy.Screen-MovementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Screen Movement";
+			};
+			name = Debug;
+		};
+		F416E32C2CB1044E00B97C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiwonstudy.Screen-MovementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Screen Movement";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F416E2F42CB1044A00B97C7C /* Build configuration list for PBXProject "Screen Movement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F416E3252CB1044E00B97C7C /* Debug */,
+				F416E3262CB1044E00B97C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F416E3222CB1044E00B97C7C /* Build configuration list for PBXNativeTarget "Screen Movement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F416E3232CB1044E00B97C7C /* Debug */,
+				F416E3242CB1044E00B97C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F416E3272CB1044E00B97C7C /* Build configuration list for PBXNativeTarget "Screen MovementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F416E3282CB1044E00B97C7C /* Debug */,
+				F416E3292CB1044E00B97C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F416E32A2CB1044E00B97C7C /* Build configuration list for PBXNativeTarget "Screen MovementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F416E32B2CB1044E00B97C7C /* Debug */,
+				F416E32C2CB1044E00B97C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F416E2F12CB1044A00B97C7C /* Project object */;
+}
