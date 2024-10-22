@@ -90,7 +90,67 @@ struct SelectedMockData{
 extension SelectedMockData{
     static var modeling = [
         [
-            SelectedMockData(name: "jjanggu", name2: "logo2", name3: "series", title4: "Crayon Shin-chan", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
+            SelectedMockData(name: "Citation", name2: "logo2", name3: "series", title4: "Citation", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
+                               name17: "ep", title18: "1. Crayon Shin-chan", title19: "24m", title20: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name21: "ep", title22: "2. Crayon Shin-chan", title23: "24m", title24: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name25: "ep", title26: "3. Crayon Shin-chan", title27: "24m", title28: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name29: "ep", title30: "4. Crayon Shin-chan", title31: "24m", title32: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name33: "ep", title34: "5. Crayon Shin-chan", title35: "24m", title36: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name37: "ep", title38: "6. Crayon Shin-chan", title39: "24m", title40: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return."
+                              )
+        ],
+        [
+            SelectedMockData(name: "Oloture", name2: "logo2", name3: "series", title4: "Oloture", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
+                               name17: "ep", title18: "1. Crayon Shin-chan", title19: "24m", title20: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name21: "ep", title22: "2. Crayon Shin-chan", title23: "24m", title24: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name25: "ep", title26: "3. Crayon Shin-chan", title27: "24m", title28: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name29: "ep", title30: "4. Crayon Shin-chan", title31: "24m", title32: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name33: "ep", title34: "5. Crayon Shin-chan", title35: "24m", title36: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name37: "ep", title38: "6. Crayon Shin-chan", title39: "24m", title40: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return."
+                              )
+        ],
+        [
+            SelectedMockData(name: "The Setup", name2: "logo2", name3: "series", title4: "The Setup", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
+                               name17: "ep", title18: "1. Crayon Shin-chan", title19: "24m", title20: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name21: "ep", title22: "2. Crayon Shin-chan", title23: "24m", title24: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name25: "ep", title26: "3. Crayon Shin-chan", title27: "24m", title28: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name29: "ep", title30: "4. Crayon Shin-chan", title31: "24m", title32: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name33: "ep", title34: "5. Crayon Shin-chan", title35: "24m", title36: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name37: "ep", title38: "6. Crayon Shin-chan", title39: "24m", title40: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return."
+                              )
+        ],
+        [
+            SelectedMockData(name: "Breaking Bad", name2: "logo2", name3: "series", title4: "Breaking Bad", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
+                               name17: "ep", title18: "1. Crayon Shin-chan", title19: "24m", title20: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name21: "ep", title22: "2. Crayon Shin-chan", title23: "24m", title24: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name25: "ep", title26: "3. Crayon Shin-chan", title27: "24m", title28: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name29: "ep", title30: "4. Crayon Shin-chan", title31: "24m", title32: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name33: "ep", title34: "5. Crayon Shin-chan", title35: "24m", title36: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name37: "ep", title38: "6. Crayon Shin-chan", title39: "24m", title40: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return."
+                              )
+        ],
+        [
+            SelectedMockData(name: "Ozark", name2: "logo2", name3: "series", title4: "Ozark", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
+                               name17: "ep", title18: "1. Crayon Shin-chan", title19: "24m", title20: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name21: "ep", title22: "2. Crayon Shin-chan", title23: "24m", title24: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name25: "ep", title26: "3. Crayon Shin-chan", title27: "24m", title28: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name29: "ep", title30: "4. Crayon Shin-chan", title31: "24m", title32: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name33: "ep", title34: "5. Crayon Shin-chan", title35: "24m", title36: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name37: "ep", title38: "6. Crayon Shin-chan", title39: "24m", title40: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return."
+                              )
+        ],
+        [
+            SelectedMockData(name: "The Governor", name2: "logo2", name3: "series", title4: "The Governor", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
+                               name17: "ep", title18: "1. Crayon Shin-chan", title19: "24m", title20: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name21: "ep", title22: "2. Crayon Shin-chan", title23: "24m", title24: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name25: "ep", title26: "3. Crayon Shin-chan", title27: "24m", title28: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name29: "ep", title30: "4. Crayon Shin-chan", title31: "24m", title32: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name33: "ep", title34: "5. Crayon Shin-chan", title35: "24m", title36: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
+                               name37: "ep", title38: "6. Crayon Shin-chan", title39: "24m", title40: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return."
+                              )
+        ],
+        [
+            SelectedMockData(name: "Your Excellency", name2: "logo2", name3: "series", title4: "Your Excellency", title5: "1990", name5: "tvma", title6: "20 Seasons", name7: "vision", name8: "hd", name9: "ad", title10: "S1:E1 나쁜 짓하면 안 돼요!", title11: "Hearts flip as Heather weds Tarek. Jason and Mary grapple with being ghosted. Go solo or take the next step: The agents face life-changing decisions.", name12: "mylist2", name13: "rate2", name14: "share2", name15: "frame", name16: "season5",
                                name17: "ep", title18: "1. Crayon Shin-chan", title19: "24m", title20: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
                                name21: "ep", title22: "2. Crayon Shin-chan", title23: "24m", title24: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
                                name25: "ep", title26: "3. Crayon Shin-chan", title27: "24m", title28: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return.",
@@ -99,6 +159,7 @@ extension SelectedMockData{
                                name37: "ep", title38: "6. Crayon Shin-chan", title39: "24m", title40: "Flying high: Chrishell reveals her latest love - Jason. In LA, the agents get real about the relationship while Christine readies her return."
                               )
         ]
+        
     ]
 }
 

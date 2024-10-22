@@ -508,7 +508,7 @@ class SelectedCustomCell: UITableViewCell {
                     ep5: String, title34: String, title35: String, title36: String,
                     ep6: String, title38: String, title39: String, title40: String)
     {
-        image.image = UIImage(named: imageName)
+//        image.image = UIImage(named: imageName)
         image2.image = UIImage(named: remind)
         image3.image = UIImage(named: series)
         label4.text = title4

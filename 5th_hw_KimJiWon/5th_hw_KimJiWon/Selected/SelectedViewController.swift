@@ -2,6 +2,9 @@ import UIKit
 
 class SelectedViewController: UIViewController {
     
+    var titleText: String?
+    var titleImage: UIImage?
+    
     var tableViewUI: UITableView!
     
     override func viewDidLoad() {
@@ -105,6 +108,7 @@ extension SelectedViewController: UITableViewDelegate, UITableViewDataSource {
             return UITableViewCell()
         }
         
+        
         let item = SelectedMockData.modeling[indexPath.section][indexPath.row]
         cell.configure(with: item.name, remind: item.name2, series: item.name3, title4: item.title4, title5: item.title5, tvma: item.name5, title6: item.title6, vision: item.name7, hd: item.name8, ad: item.name9, title10: item.title10, title11: item.title11, mylist2: item.name12, rate2: item.name13, share2: item.name14, frame: item.name15, season5: item.name16,
                        ep: item.name17, title18: item.title18, title19: item.title19, title20: item.title20,
@@ -114,7 +118,10 @@ extension SelectedViewController: UITableViewDelegate, UITableViewDataSource {
                        ep5: item.name33, title34: item.title34, title35: item.title35, title36: item.title36,
                        ep6: item.name37, title38: item.title38, title39: item.title39, title40: item.title40)
         cell.selectionStyle = .none
-
+        
+        cell.image.image = titleImage
+        cell.label4.text = titleText
+        
         return cell
     }
     

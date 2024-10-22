@@ -96,6 +96,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         let item = SearchMockData.modeling[indexPath.section][indexPath.row]
         cell.configure(with: item.title, imageName: item.name, playbtn: item.name2)
         cell.selectionStyle = .none
+        
 
         return cell
     }
@@ -119,6 +120,30 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         return 40.0
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // 1. SelectedMockData 가져오기
+        let selectedMockData = SearchMockData.modeling[indexPath.section][indexPath.row]
+        
+        // 2. 첫 번째로 UINavigationController로 푸시할 ViewController 설정
+        let selectedVC = SelectedViewController()
+        selectedVC.titleText = selectedMockData.title   // 데이터 전달
+        selectedVC.titleImage = UIImage(named: selectedMockData.name)   // 이미지 전달
+        let selectedController = UINavigationController(rootViewController: selectedVC)
+        self.present(selectedController, animated: true, completion: nil)
+        
+        // 3. 두 번째로 모달로 띄울 ViewController 설정
+        let modalVC = SelectedViewController()
+        modalVC.titleText = selectedMockData.title   // 데이터 전달
+        modalVC.titleImage = UIImage(named: selectedMockData.name)   // 이미지 전달
+        self.present(modalVC, animated: true)
+    }
+
+
+    // @objc func dismissViewController() {
+    //     self.dismiss(animated: true)
+    // }
+
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = UIView()
         
