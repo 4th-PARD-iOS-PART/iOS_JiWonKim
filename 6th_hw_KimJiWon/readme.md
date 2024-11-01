@@ -1,4 +1,4 @@
-# Assignment6 - 
+# Assignment6
 ### This is Assignment Screen
 
 ## 과제6 화면입니다.
