@@ -1,6 +1,6 @@
-import Foundation // 기본값
+import Foundation
 
-struct Member : Codable {
+struct MemberData : Codable {
     var id : Int?
     var name : String
     var part : String

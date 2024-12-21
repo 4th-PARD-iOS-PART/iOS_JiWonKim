@@ -9,14 +9,6 @@ class HomeViewController: UIViewController {
         tableVIew.translatesAutoresizingMaskIntoConstraints = false
         return tableVIew
     }()
-    
-//    func setMovies(){
-//        for i in 1...36{
-//            movies.append("\(i)")
-//        }
-//    }
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,8 +23,6 @@ class HomeViewController: UIViewController {
         }
         
     }
-  
-    
     func setUI(){        
         // scrollView 설정
         let scrollView: UIScrollView = {
